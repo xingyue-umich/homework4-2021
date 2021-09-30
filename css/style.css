@@ -1,0 +1,133 @@
+/*STARTER CODE*/
+
+/*
+We have started some of the selectors for you.
+For others we have provided hints on what the selectors should be.
+There are some missing selectors.
+Make sure to learn what the starter code does!!
+*/
+
+/*STARTER CODE - DO NOT CHANGE*/
+main{
+  margin-bottom: 100px;
+}
+
+caption{
+  margin:5px 0px;
+}
+
+/* If you decide to uncomment this code, comment it back for the Autograder. */
+/* tr{
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+} */
+
+/*END STARTER CODE*/
+
+body{
+  color: #000000;
+  font-size: 16px;
+  margin: 1.2em;
+  background-size: cover ;
+  background-image: url("../images/pigeon-background.JPEG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #dddddd;
+  font-family: "Andika", sans-serif;
+  /*Req 1*/
+}
+
+h1{
+  color: #c12258;
+  font-size: 32px;
+  text-align: center;
+  line-height: 2;
+  /*Req 2*/
+}
+
+p{
+  padding:15px 0 0 0;
+}
+
+a{
+  font-size: 16px;
+  color: #B21F50;
+  text-decoration-style: wavy;
+}
+
+*:focus{
+  border: 3px dashed #417243;
+}
+
+/*Req 5*/
+/*Add selector and rule here*/
+
+table{
+  border: 5px solid #000000;
+  border-radius: 50px;
+  margin: auto;
+}
+
+th.colhead:first-child{
+  border-top-left-radius: 45px;
+}
+
+th.colhead:last-child{
+  border-top-right-radius: 45px;
+}
+
+
+td{
+  text-align: center;
+  padding: 10px;
+  border-top: #000000 2px solid;
+}
+
+tbody tr:last-child{
+  border-radius: 45px;
+  /* background-color:#c12258; */
+}
+
+.colhead{
+  color: #FFFFFF;
+  min-width: 125px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #7e0825;
+}
+
+
+.rowhead{
+  border: 2px black solid;
+  border-left: none;
+  border-bottom: none;
+  vertical-align:middle;
+}
+
+tbody tr:nth-child(2n-1){
+  background-color: transparent;
+}
+
+tbody tr:nth-child(2n){
+  background-color: #D1D1D1;
+} 
+
+tbody tr:hover{
+  background:rgba(126, 8, 37, 0.25);
+} 
+
+
+/* I gave you the selector, but not the property-value pair.
+You can use Inspect Element or your editor to find selectors. */
+/*Add selectors and rules here*/
+
+
+
+footer{
+  width:100vw;
+  min-height: 75px;
+  background:#000000;
+  color: #FFFFFF;
+  text-align: center;
+}
