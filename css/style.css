@@ -69,11 +69,11 @@ table{
 }
 
 th.colhead:first-child{
-  border-top-left-radius: 45px;
+  border-top-left-radius: 50px;
 }
 
 th.colhead:last-child{
-  border-top-right-radius: 45px;
+  border-top-right-radius: 50px;
 }
 
 
@@ -83,10 +83,6 @@ td{
   border-top: #000000 2px solid;
 }
 
-tbody tr:last-child{
-  border-radius: 45px;
-  /* background-color:#c12258; */
-}
 
 .colhead{
   color: #FFFFFF;
@@ -94,6 +90,7 @@ tbody tr:last-child{
   padding: 10px;
   text-transform: uppercase;
   text-align: center;
+  vertical-align: middle;
   background-color: #7e0825;
 }
 
@@ -105,13 +102,20 @@ tbody tr:last-child{
   vertical-align:middle;
 }
 
+
+table tbody tr:last-child{
+  /* background-color: yellow; */
+  border-radius: 0 0 50px 50px;
+}
+
+
 tbody tr:nth-child(2n-1){
   background-color: transparent;
 }
 
 tbody tr:nth-child(2n){
   background-color: #D1D1D1;
-} 
+}
 
 tbody tr:hover{
   background:rgba(126, 8, 37, 0.25);
@@ -122,12 +126,12 @@ tbody tr:hover{
 You can use Inspect Element or your editor to find selectors. */
 /*Add selectors and rules here*/
 
-
-
 footer{
-  width:100vw;
   min-height: 75px;
+  bottom: 0;
+  width:100%;
   background:#000000;
   color: #FFFFFF;
   text-align: center;
+  position: fixed;
 }
