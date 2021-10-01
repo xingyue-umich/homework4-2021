@@ -129,6 +129,8 @@ You can use Inspect Element or your editor to find selectors. */
 footer{
   min-height: 75px;
   bottom: 0;
+  left: 0;
+  right: 0;
   width:100%;
   background:#000000;
   color: #FFFFFF;
